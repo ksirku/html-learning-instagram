@@ -1,0 +1,413 @@
+.nav {
+    display: inline;
+}
+
+.nav-bar {
+    border-bottom: 1px solid lightgray;
+    position: fixed;
+    top: 0px;
+    background: white;
+    width: 100%;
+    z-index: 9999;
+    
+}
+
+.nav-bar > .nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    
+
+  }
+  @media (min-width: 768px) {
+    .container {
+      width: 500px;
+    }
+  }
+  @media (min-width: 992px) {
+    .container {
+      width: 720px;
+    }
+  }
+  @media (min-width: 1200px) {
+    .container {
+      width: 920px;
+    }
+  }
+  
+.feed {
+    margin: 0 20%;
+}
+
+.nav > input {
+    text-align: center;
+    background: rgb(240, 244, 247);
+    width: 150px;
+    padding: 5px 20px;
+    opacity: 50%;
+    font-size: 15px;
+    border-radius: 2px;
+    border: 1px solid lightgrey;
+    
+}
+
+.icon {
+    color: black;
+    text-decoration: none;
+    margin: 10px 15px;
+    font-size: 20px;
+}
+
+.post-icon a {
+    height: 32px;
+    width: 32px;
+}
+
+.post-icon .post-name {
+    display: inline-flex;
+    
+    align-items: center;
+}
+
+.post-icon img {
+    width: 100%;
+    height: 100%;
+}
+
+.nav .center-cropped {
+    height: 20px;
+    object-fit: cover;
+    object-position: center;
+    width: 20px;
+    border-radius: 100%;
+    position: absolute;
+}
+
+.nav-post .center-cropped {
+    height: 30px;
+    object-fit: cover;
+    object-position: center;
+    width: 30px;
+    border-radius: 100%;
+}
+
+.nav-post .post-name {
+    text-decoration: none;
+    color: black;
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+body {
+    margin: 0;
+}
+
+.main {
+    background: rgb(250, 250, 250);
+    padding-top: 100px;
+    display: flex;
+
+}
+
+.post-options > a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.post {
+    background: white;
+    width: 60%;
+    border: 1px solid lightgray;
+    float: left;
+}
+
+.nav-post {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.post-icon {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+.post-options {
+    padding: 15px;
+    font-size: 15px;
+}
+
+#food-photo {
+    width: 100%;
+}
+
+.post-likes {
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.post-likes .post-icon {
+    color: black;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.likes-quantity > a {
+    text-decoration: none;
+    color: black;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    
+}
+
+.likes-quantity {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.post-time {
+    opacity: 40%;
+    font-size: 10px;
+    font-family: Roboto, sans-serif;
+    font-weight: lighter;
+    margin: 10px;
+}
+
+.nav-comments {
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+    border-top: 1px solid rgb(240, 240, 240);
+}
+
+.comments {
+    padding: 15px;
+}
+
+.comments > input {
+    border: none;
+    background-color: white;
+    font-size: 14px;
+    width: 400px;
+    height: 30px;
+    opacity: 50%;
+}
+
+.comments > a {
+    text-decoration: none;
+    color: rgb(55, 177, 214);
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    opacity: 60%;
+}
+
+.profile-options {
+    /* position: fixed; */
+    left: 60%;
+    /* top: 80px; */
+    /* right: 10px; */
+    
+}
+
+.profile-icon .center-cropped {
+    height: 50px;
+    object-fit: cover;
+    object-position: center;
+    width: 50px;
+    border-radius: 100%;
+    
+}
+
+.profile-photo {
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.katrinsirku {
+    text-decoration: none;
+    color: black;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+ .profile-icon {
+    display: flex;
+    align-items: center;
+}
+
+.stories-options {
+    background: white;
+    font-family: Roboto, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.stories-options > div {
+    color: grey;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 15px;
+}
+
+.stories-options > a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 13px;
+    padding-right: 15px;
+    font-family: Roboto, sans-serif;
+}
+
+.stories {
+    border: 1px solid lightgrey;
+    background: white;
+    margin-top: 20px;
+    
+}
+
+.stories-friends {
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 200px;
+
+}
+
+.friends-icon .center-cropped {
+    height: 40px;
+    object-fit: cover;
+    object-position: center;
+    width: 40px;
+    border-radius: 100%;
+}
+
+.friends-icon {
+    margin: 5px;
+    margin-left: 15px;
+}
+
+.friends-icon > img {
+    margin-right: 10px;
+}
+
+.friends-icon .minutes {
+    opacity: 40%;
+    font-size: 10px;
+    font-family: Roboto, sans-serif;
+    font-weight: lighter;
+    margin-top: 3px;
+   
+}
+
+
+
+.stories-friends > a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: Roboto, sans-serif;
+    display: flex;
+    align-items: center;
+    
+}
+
+.extra-info ul {
+    list-style: none;
+    padding-left: 0;
+    
+}
+
+.extra-info li {
+    display: inline;
+}
+
+.extra-info a {
+    text-decoration: none;
+    color: lightgrey;
+    font-family: Roboto, sans-serif;
+    font-size: 11px;
+    padding-left: 0;
+}
+
+.extra-info li::before {
+    content: "• ‎";
+    color: lightgrey;
+    font-size: 8px;
+}
+
+.extra-info li:first-child::before {
+    content: none;
+}
+
+.post-text a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: Roboto, sans-serif;
+}
+
+.post-text {
+    margin: 10px;
+    color: black;
+    
+    font-size: 14px;
+    font-family: Roboto, sans-serif;
+}
+
+.post-comments a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: Roboto, sans-serif;
+}
+
+.post-comments {
+    color: black;
+    margin: 10px;
+    margin-left: 10px;
+    font-size: 14px;
+    font-family: Roboto, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.post-comments .heart {
+    opacity: 30%;
+}
+
+.icons-under-post {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+    font-weight: lighter;
+}
+
+.save a {
+    color: black;
+    text-decoration: none;
+    font-size: 24px;
+    margin-right: 10px;
+}
